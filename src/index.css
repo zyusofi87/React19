@@ -90,3 +90,15 @@ button:focus-visible {
     grid-template-columns: 1fr; /* One column on small screens */
   }
 }
+
+rating_default {
+  background-color: black;
+}
+
+rating_good {
+  background-color: green;
+}
+
+rating_bad {
+  background-color: orange;
+}

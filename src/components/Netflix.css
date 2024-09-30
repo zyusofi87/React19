@@ -1,6 +1,8 @@
 .card {
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
     list-style-type: none;
+    height: auto;
+    padding: 10px
 }
 
 .card-content
@@ -18,4 +20,25 @@ img {
 }
 card-heading {
     margin-bottom: 5px;
+}
+
+.rating_default {
+    background-color: black;
+    padding:0px 10px 0px 10px;
+    border-radius: 5px;
+    color: white;
+}
+
+.rating_good {
+    background-color: green;
+    padding: 0px 10px 0px 10px;
+        border-radius: 5px;
+        color: white;
+}
+
+.rating_bad {
+    background-color: orange;
+    padding: 0px 10px 0px 10px;
+        border-radius: 5px;
+        color: white;
 }
