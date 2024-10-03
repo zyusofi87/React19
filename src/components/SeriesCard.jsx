@@ -1,4 +1,5 @@
 import "./Netflix.css";
+
 export const SeriesCard = ({ data }) => {
   const { name, img_url, rating, cast, genre, description } = data;
 
@@ -27,7 +28,7 @@ export const SeriesCard = ({ data }) => {
           <h3 >Rating: <span className={"rating_"+colorForRating}>{rating}</span> </h3>
         
         
-        <p >
+        <p className="text-3xl font-bold underline">
           Summary: {description}
         </p>
         <p>Genre: {genre.join(", ")} </p>
